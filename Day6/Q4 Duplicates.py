@@ -1,11 +1,15 @@
 # WAP to take input from the user and remove all the duplicates
 
-input_string = input("Enter a string: ")
-unique_string = ""
-for char in input_string:
-    if char not in unique_string:
-        unique_string += char
-print("String with duplicates removed:", unique_string)
+
+
+str1 = input("Enter a string: ")
+new_str = ""
+for i in str1:
+    if i in new_str:
+        pass
+    else:
+        new_str=new_str+i
+print("String duplicates: ",new_str)
 
 
 
