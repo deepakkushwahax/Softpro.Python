@@ -1,3 +1,5 @@
+#compressed string in python
+
 user_str = input("Enter the String: ")
 new_str = ""
 count = 1
